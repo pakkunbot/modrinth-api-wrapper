@@ -1,7 +1,7 @@
 import httpx
 from typing import Optional, Union
 
-from modrinth_api_wrapper.expections import (
+from modrinth_api_wrapper_pakkunbot.expections import (
     ResponseCodeException,
     TooManyRequestsException,
     InvalidRequestException,

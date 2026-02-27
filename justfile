@@ -1,6 +1,6 @@
 set positional-arguments
 
-VERSION := `uv run scripts/get_version.py modrinth_api_wrapper/__init__.py`
+VERSION := `uv run scripts/get_version.py modrinth_api_wrapper_pakkunbot/__init__.py`
 
 test:
   uv run --with pytest python -m pytest tests

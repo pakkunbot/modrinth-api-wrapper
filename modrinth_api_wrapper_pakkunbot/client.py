@@ -2,8 +2,8 @@ from typing import Optional, Union, List, Dict
 from enum import Enum
 import json
 
-from modrinth_api_wrapper.models import Project, Version, SearchResult
-from modrinth_api_wrapper.network import request
+from modrinth_api_wrapper_pakkunbot.models import Project, Version, SearchResult
+from modrinth_api_wrapper_pakkunbot.network import request
 
 
 class SearchIndex(Enum):

@@ -8,7 +8,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "modrinth-api-wrapper-pakkunbot"
-version = "1.0.2"
+version = "1.0.3"
 description = "Python wrapper for Modrinth API with Pydantic models"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -18,8 +18,8 @@ dependencies = [
     "pydantic-core==2.23.4; python_version < '3.9'",
     "pydantic-core>2.23.4; python_version >= '3.9'",
     # Pydantic 2.11+ requires Python >=3.9
-    "pydantic>=2.10.5,<2.11; python_version < '3.9'",
-    "pydantic>=2.10.5,<3; python_version >= '3.9'",
+    "pydantic>=2.9.0,<2.10; python_version < '3.9'",
+    "pydantic>=2.10,<3; python_version >= '3.9'",
 ]
 authors = [{ name = "z0z0r4", email = "z0z0r4@outlook.com" }]
 keywords = ["python", "modrinth", "mcinecraft", "api", "wrapper"]

@@ -1,6 +1,6 @@
 import pytest
 
-from modrinth_api_wrapper import *
+from modrinth_api_wrapper_pakkunbot import *
 
 
 PROJECT_IDS = ["AANobbMI", "P7dR8mSH"]
